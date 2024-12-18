@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     text-align: center;
-    background-color: #ababff;
+    background-color: #7fd7c9;
 }
 
 .tela {
@@ -24,7 +24,7 @@ body {
     width: 100%;
     max-width: 500px;
     padding: 20px;
-    background-color: #c6c3ef;
+    background-color: #7cbdb0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -38,8 +38,8 @@ button {
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
-    color: rgb(251, 249, 255);
-    background-color: #6d4caf;
+    color: rgb(249, 255, 255);
+    background-color: #0caa7b;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #6d4caf;
+    background-color: #135936;
 }
 
 img {
