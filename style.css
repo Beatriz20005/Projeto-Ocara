@@ -7,10 +7,13 @@ body {
 }
 
 .tela {
-    margin-top: 15%;
+     width: 50%;
+    padding: 20px;
+    margin-top: 300px;
     font-family: serif, sans-serif;
     font-size: 20px;
     color: rgb(184, 100, 201);
+    text-align: center;
 
 }
 
