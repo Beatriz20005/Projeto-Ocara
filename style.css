@@ -1,72 +1,86 @@
-body {
-    font-family: serif, sans-serif;
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
-    background-color: #c4bcff;
-    text-align: center;
-    justify-content:center;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
-   display: flex;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #ababff;
 }
 
 .tela {
-     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
-    margin-top: 300px;
-    font-family: serif, sans-serif;
-    font-size: 20px;
-    color: rgb(184, 100, 201);
-    text-align: center;
-
+    background-color: #c6c3ef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
-
-.tela1 {
-    font-size: 20px;
-    margin-top: 9%;
-    color: white;
-
-}
-
-
-
 
 h1, h2 {
     color: #ffffff;
-    
+    margin-bottom: 20px;
 }
 
 button {
-    background-color: #a576c6;
-    color: white;
-    border: none;
-    padding: 10px 20px;
     margin: 10px;
-    font-size: 15px;
-    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(251, 249, 255);
+    background-color: #6d4caf;
+    border: none;
     border-radius: 5px;
-    width: 300px;
-    height: auto;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 button:hover {
-    background-color: #a576c6;
+    background-color: #6d4caf;
 }
 
-.imagem {
-    margin-top: 15%;
-    width: 300px;
-    height: auto;
-    margin: 10px auto;
-    display: block;
+img {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
-#mensagem {
+p {
     font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
-#pontuacao {
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pontuacao {
     font-weight: bold;
-    font-size: 20px;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Responsividade para tablets */
+@media (min-width: 768px) {
+    .tela {
+        max-width: 600px;
+    }
+
+    button {
+        font-size: 18px;
+    }
 }
