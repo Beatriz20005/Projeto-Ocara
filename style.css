@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #c4bcff;
     text-align: center;
+    justify-content:center;
+    align-items: center;
+   display: flex;
 }
 
 .tela {
